@@ -26,6 +26,12 @@ pip install openpyxl
 python main.py
 ```
 
+or
+```
+python -m pip install openpyxl
+python main.py
+```
+
 Requires Python 3.9+. `tkinter` ships with standard Python on
 Windows/macOS; on Linux install `python3-tk` if it's missing.
 

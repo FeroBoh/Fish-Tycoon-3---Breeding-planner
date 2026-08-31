@@ -4,6 +4,8 @@ A small Tkinter desktop app for planning fish breeding in **Fish Tycoon 3**.
 It reads breeding data from an Excel workbook (`Breeding_charts.xlsx`) and
 figures out how to breed a target fish from the fish you currently own.
 
+![App screenshot](screenshots/app.png)
+
 ## Features
 
 - One tab per map (Freshwater / Saltwater / Magical), each split into:
@@ -23,10 +25,6 @@ figures out how to breed a target fish from the fish you currently own.
 pip install openpyxl
 python main.py
 ```
-
-or
-
-```python -m pip install openpyxl```
 
 Requires Python 3.9+. `tkinter` ships with standard Python on
 Windows/macOS; on Linux install `python3-tk` if it's missing.
